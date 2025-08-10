@@ -21,12 +21,13 @@ nav, ul ,li {
     margin-right: 40px;
     
 }
-
+nav ul {
+     align-items: center; }
 
 
 .size {
     font-size: 45px;
-    margin-left: 60px ;
+    margin-left: 90px ;
 }
 .color {
     color: #FD6E0A;
@@ -36,4 +37,44 @@ nav, ul ,li {
     color: #474747;
     text-decoration: none;
     font-size: 20px;
+}
+.btn-primary {
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    width: 150px;
+    height: 64px;
+    padding: 6px 12px;
+    border: none;
+}
+.banner {
+    margin-left: 90px ;
+}
+
+.banner-first {
+    font-size: 45px;
+    width: 600px;
+}
+.banner-title {
+    font-size: 85px;
+}
+.paragraph {
+    font-size: 18px;
+    width: 576px;
+    height: 60px;
+}
+.new-btn {
+    background-color: none;
+    color: #FD6E0A;
+    width: 160px;
+    height: 64px;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headers{
+    background-image: url('../images/developer.png') , url('../images/header_bg.png');  
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
